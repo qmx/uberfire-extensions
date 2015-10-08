@@ -34,6 +34,7 @@
     <version.org.picketlink>2.6.0.Final</version.org.picketlink>
     <version.com.google.gwt>2.7.0</version.com.google.gwt>
     <version.org.gwtbootstrap3>0.9.1</version.org.gwtbootstrap3>
+    <version.org.jbpm.jbpm-bpmn2-emfextmodel>6.3.0.Final</version.org.jbpm.jbpm-bpmn2-emfextmodel>
 
     <!-- temporary: makes the enforcerRule (illegal-transitive-dependency-check) not to break the build -->
     <illegaltransitivereportonly>true</illegaltransitivereportonly>
@@ -195,6 +196,12 @@
         <groupId>org.jgroups</groupId>
         <artifactId>jgroups</artifactId>
         <version>${version.org.jgroups}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jbpm</groupId>
+        <artifactId>jbpm-bpmn2-emfextmodel</artifactId>
+        <version>${version.org.jbpm.jbpm-bpmn2-emfextmodel}</version>
       </dependency>
 
     </dependencies>

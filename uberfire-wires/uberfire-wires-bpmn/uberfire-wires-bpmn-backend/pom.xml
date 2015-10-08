@@ -54,6 +54,10 @@
       <artifactId>xstream</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-bpmn2-emfextmodel</artifactId>
+    </dependency>
   </dependencies>
 
 </project>
